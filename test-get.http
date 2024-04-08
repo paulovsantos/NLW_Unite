@@ -1,0 +1,19 @@
+POST http://localhost:3000/events
+Content-Type: application/json
+
+{
+   "title": "titulo teste api5",
+   "details": "some detail",
+   "slug": "rocketseatNLW4",
+   "maximum_attendees": 20
+}
+
+###
+POST http://localhost:3000/events/:event_id/register
+Content-Type: application/json
+
+{
+   "name": "Paulo Vitor",
+   "email": "email@email.com",
+}
+   
